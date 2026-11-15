@@ -23,7 +23,7 @@ const CONFIG = {
     direccion: "https://www.google.com/maps/place/Club+de+Clases+Y+Polic%C3%ADas+Tamarindo+Real/@-1.0261444,-80.4774094,17z/data=!4m6!3m5!1s0x902bed6abd16cd2d:0x6558e3b8899c7cca!8m2!3d-1.0261399!4d-80.4774093!16s%2Fg%2F11c5bqpwt8?hl=en&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
   },
   vestimenta: 'Formal / Elegante',
-  regalos: '¡Gracias por tu cariño y generoso regalo! Una persona encargada te entregará un sobre con tu nombre el día de la celebración, para que puedas colocar tu obsequio. ¡Muchas gracias por ser parte de este día tan especial!',
+  recuerdos: 'En el área de invitados encontrarás sobres y una pluma para que puedas escribir tus datos y dejar un lindo recuerdo de tu visita. ¡Gracias por ser parte de este día tan especial!',
   iniciarMusicaAlAbrir: true
 };
 
@@ -72,7 +72,7 @@ function configurarPagina() {
   establecerTexto('partyVenue', CONFIG.recepcion.lugar);
   establecerTexto('partyTime', CONFIG.recepcion.hora);
   establecerTexto('dressCodeText', CONFIG.vestimenta);
-  establecerTexto('giftText', CONFIG.regalos);
+  establecerTexto('guestbookText', CONFIG.recuerdos);
 
   configurarMapa('ceremonyMap', CONFIG.ceremonia.direccion);
   configurarMapa('partyMap', CONFIG.recepcion.direccion);

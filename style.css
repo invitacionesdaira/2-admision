@@ -298,7 +298,7 @@ h3 { font:500 2.15rem/1.1 var(--font-serif); color:var(--wine); }
 .countdown-grid span { display:block; font-size:.6rem; text-transform:uppercase; letter-spacing:.15em; margin-top:15px; color:#5987bf; }
 .countdown-tagline { color:#5987bf; font:italic 1.2rem var(--font-serif); margin-top:23px; }
 .details { background:linear-gradient(160deg,#e7eff9,#f6f9fd); }
-.details-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; margin-top:43px; }
+.details-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; margin-top:43px; }
 .detail-card { padding:36px 21px 33px; background:#fbfcfed1; border:1px solid #b4c9e2; }
 .detail-card>span { display:block; font:2.5rem var(--font-serif); color:var(--gold); }
 .detail-card h3 { font-size:1.85rem; margin:14px 0; }
@@ -816,12 +816,12 @@ body.effects-light .intro-token { animation-duration:9s; }
   .portrait-reveal-image { object-position:50% 100%; }
 }
 
-/* REGALOS · UN SOBRE CON MUCHO CARIÑO */
-.gifts-section { background:linear-gradient(165deg,#f7fafd,#eaf2fb); }
-.gift-envelope { width:96px; height:76px; margin:23px auto 14px; color:#7298c5; }
-.gift-envelope svg { display:block; width:100%; height:100%; }
-.gifts-section h2 { margin-bottom:30px; }
-.gift-note { display:grid; gap:15px; padding:clamp(25px,5vw,44px) clamp(20px,5vw,48px); border:1px solid #b1c8e2; background:#ffffffb3; box-shadow:0 12px 40px #547ba30b; }
-.gift-note p { margin:0; color:var(--ink); font:400 clamp(.94rem,1.6vw,1.05rem)/2 var(--font-sans); text-wrap:pretty; }
-.gift-note-ornament { color:#7298c5; font:1.55rem/1 var(--font-serif); }
+/* RECUERDOS · UN SOBRE CON MUCHO CARIÑO */
+.memories-section { background:linear-gradient(165deg,#f7fafd,#eaf2fb); }
+.memory-envelope { width:96px; height:76px; margin:23px auto 14px; color:#7298c5; }
+.memory-envelope svg { display:block; width:100%; height:100%; }
+.memories-section h2 { margin-bottom:30px; }
+.memory-note { display:grid; gap:15px; padding:clamp(25px,5vw,44px) clamp(20px,5vw,48px); border:1px solid #b1c8e2; background:#ffffffb3; box-shadow:0 12px 40px #547ba30b; }
+.memory-note p { margin:0; color:var(--ink); font:400 clamp(.94rem,1.6vw,1.05rem)/2 var(--font-sans); text-wrap:pretty; }
+.memory-note-ornament { color:#7298c5; font:1.55rem/1 var(--font-serif); }
 a.detail-action { display:inline-block; text-decoration:none; }

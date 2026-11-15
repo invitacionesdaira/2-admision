@@ -310,7 +310,7 @@ h3 { font:500 2.15rem/1.1 var(--font-serif); color:var(--wine); }
 .countdown-grid span { display:block; font-size:.6rem; text-transform:uppercase; letter-spacing:.15em; margin-top:15px; color:#5987bf; }
 .countdown-tagline { color:#5987bf; font:italic 1.2rem var(--font-serif); margin-top:23px; }
 .details { background:linear-gradient(160deg,#e7eff9,#f6f9fd); }
-.details-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; margin-top:43px; }
+.details-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; margin-top:43px; }
 .detail-card { padding:36px 21px 33px; background:#fbfcfed1; border:1px solid #b4c9e2; }
 .detail-card>span { display:block; font:2.5rem var(--font-serif); color:var(--gold); }
 .detail-card h3 { font-size:1.85rem; margin:14px 0; }
@@ -828,14 +828,14 @@ body.effects-light .intro-token { animation-duration:9s; }
   .portrait-reveal-image { object-position:50% 100%; }
 }
 
-/* REGALOS · UN SOBRE CON MUCHO CARIÑO */
-.gifts-section { background:linear-gradient(165deg,#f7fafd,#eaf2fb); }
-.gift-envelope { width:96px; height:76px; margin:23px auto 14px; color:#7298c5; }
-.gift-envelope svg { display:block; width:100%; height:100%; }
-.gifts-section h2 { margin-bottom:30px; }
-.gift-note { display:grid; gap:15px; padding:clamp(25px,5vw,44px) clamp(20px,5vw,48px); border:1px solid #b1c8e2; background:#ffffffb3; box-shadow:0 12px 40px #547ba30b; }
-.gift-note p { margin:0; color:var(--ink); font:400 clamp(.94rem,1.6vw,1.05rem)/2 var(--font-sans); text-wrap:pretty; }
-.gift-note-ornament { color:#7298c5; font:1.55rem/1 var(--font-serif); }
+/* RECUERDOS · UN SOBRE CON MUCHO CARIÑO */
+.memories-section { background:linear-gradient(165deg,#f7fafd,#eaf2fb); }
+.memory-envelope { width:96px; height:76px; margin:23px auto 14px; color:#7298c5; }
+.memory-envelope svg { display:block; width:100%; height:100%; }
+.memories-section h2 { margin-bottom:30px; }
+.memory-note { display:grid; gap:15px; padding:clamp(25px,5vw,44px) clamp(20px,5vw,48px); border:1px solid #b1c8e2; background:#ffffffb3; box-shadow:0 12px 40px #547ba30b; }
+.memory-note p { margin:0; color:var(--ink); font:400 clamp(.94rem,1.6vw,1.05rem)/2 var(--font-sans); text-wrap:pretty; }
+.memory-note-ornament { color:#7298c5; font:1.55rem/1 var(--font-serif); }
 a.detail-action { display:inline-block; text-decoration:none; }
 </style>
   
@@ -1099,16 +1099,15 @@ Leonardo Palma</p>
         <div class="details-grid">
           <article class="detail-card"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNjAgMTYwIiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE2MCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJjcnlzdGFsIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuOTgiLz48c3RvcCBvZmZzZXQ9Ii40NSIgc3RvcC1jb2xvcj0iI2Q3ZWVmZiIvPjxzdG9wIG9mZnNldD0iLjciIHN0b3AtY29sb3I9IiM5YWM2ZWUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmNWZiZmYiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iZHJlc3MiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjZWRmOGZmIi8+PHN0b3Agb2Zmc2V0PSIuMzgiIHN0b3AtY29sb3I9IiM5ZGM5ZWQiLz48c3RvcCBvZmZzZXQ9Ii43MiIgc3RvcC1jb2xvcj0iIzcyYTlkOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2Q0ZWNmZiIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJzaWx2ZXIiPjxzdG9wIHN0b3AtY29sb3I9IiNmYWZmZmYiLz48c3RvcCBvZmZzZXQ9Ii41IiBzdG9wLWNvbG9yPSIjYTJiOWQ2Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PGcgc3Ryb2tlPSIjNzM5YWMyIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTY3IDMyUTY1IDIwIDczIDE4SDg3UTk0IDIwIDkzIDMyTDg1IDQzSDc1WiIgZmlsbD0iI2Y1ZGZkMyIgc3Ryb2tlPSJub25lIi8+PHBhdGggZD0iTTY5IDMxUTU5IDM5IDUzIDUyTDYyIDU5TDcyIDQ3TTkxIDMxUTEwMyAzOSAxMDggNTJMOTkgNTlMODggNDciIGZpbGw9IiNlYWY3ZmYiLz48cGF0aCBkPSJNNjggMzNRODAgNDQgOTIgMzNMODggNTlMODAgNjRMNzIgNTlaIiBmaWxsPSJ1cmwoI2RyZXNzKSIvPjxwYXRoIGQ9Ik03MiA1N0M2MSA2NSA0NiA5MCAyOSAxMjdRODAgMTQ0IDEzMSAxMjdDMTE0IDkxIDk5IDY0IDg4IDU3WiIgZmlsbD0idXJsKCNkcmVzcykiLz48cGF0aCBkPSJNNzIgNjBRNjIgODEgNDYgMTI4TTgwIDY0VjEzNU04NyA2MFE5OCA4MiAxMTMgMTI4IiBmaWxsPSJub25lIiBzdHJva2U9IiNlZmZhZmYiIHN0cm9rZS13aWR0aD0iMiIvPjxwYXRoIGQ9Ik03MyA1OVE1MiA3NSA0MyA4OFE2NSA4NCA4MCA2NVE5NCA4NCAxMTcgODhRMTA4IDc0IDg3IDU5IiBmaWxsPSIjZWFmOGZmIiBvcGFjaXR5PSIuOCIvPjxwYXRoIGQ9Ik01NyAxMDRRODAgMTE3IDEwNCAxMDRNNDggMTIxUTgwIDEzMyAxMTQgMTIxIiBmaWxsPSJub25lIiBzdHJva2U9IiNkMmU5ZmIiLz48cGF0aCBkPSJNNjggMzNMNjEgNDBMNzIgNDRNOTIgMzNMMTAwIDQwTDg4IDQ0IiBmaWxsPSIjZWVmOWZmIiBzdHJva2U9IiNiOWQ3ZWYiLz48L2c+PHBhdGggZD0iTTMzIDQ0LjBRMzMuNzUgNDkuMjUgMzguMjUgNTBRMzMuNzUgNTAuNzUgMzMgNTYuMFEzMi4yNSA1MC43NSAyNy43NSA1MFEzMi4yNSA0OS4yNSAzMyA0NC4wWiIgZmlsbD0iI2Y5ZmRmZiIgc3Ryb2tlPSIjYTNjNmU4IiBzdHJva2Utd2lkdGg9Ii41Ii8+PHBhdGggZD0iTTEyOCAyN1ExMjkgMzQgMTM1IDM1UTEyOSAzNiAxMjggNDNRMTI3IDM2IDEyMSAzNVExMjcgMzQgMTI4IDI3WiIgZmlsbD0iI2Y5ZmRmZiIgc3Ryb2tlPSIjYTNjNmU4IiBzdHJva2Utd2lkdGg9Ii41Ii8+PHBhdGggZD0iTTEyOCA5NS4wUTEyOC41IDk4LjUgMTMxLjUgOTlRMTI4LjUgOTkuNSAxMjggMTAzLjBRMTI3LjUgOTkuNSAxMjQuNSA5OVExMjcuNSA5OC41IDEyOCA5NS4wWiIgZmlsbD0iI2Y5ZmRmZiIgc3Ryb2tlPSIjYTNjNmU4IiBzdHJva2Utd2lkdGg9Ii41Ii8+PC9zdmc+" width="160" height="160" alt="" loading="lazy"><h3>Código de vestimenta</h3><p>Prepárate para una noche de gala y un baile de cuento.</p><button type="button" class="detail-action" data-modal="dressDialog">Ver detalles ↗</button></article>
           <article class="detail-card"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNjAgMTYwIiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE2MCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJjcnlzdGFsIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuOTgiLz48c3RvcCBvZmZzZXQ9Ii40NSIgc3RvcC1jb2xvcj0iI2Q3ZWVmZiIvPjxzdG9wIG9mZnNldD0iLjciIHN0b3AtY29sb3I9IiM5YWM2ZWUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmNWZiZmYiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iZHJlc3MiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjZWRmOGZmIi8+PHN0b3Agb2Zmc2V0PSIuMzgiIHN0b3AtY29sb3I9IiM5ZGM5ZWQiLz48c3RvcCBvZmZzZXQ9Ii43MiIgc3RvcC1jb2xvcj0iIzcyYTlkOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2Q0ZWNmZiIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJzaWx2ZXIiPjxzdG9wIHN0b3AtY29sb3I9IiNmYWZmZmYiLz48c3RvcCBvZmZzZXQ9Ii41IiBzdG9wLWNvbG9yPSIjYTJiOWQ2Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PGcgc3Ryb2tlPSIjNzE5NWJiIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTc2IDM2UTgxIDI2IDg3IDMxUTgwIDM1IDgzIDQxIiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTc5IDM3QzYxIDMyIDQzIDQyIDQwIDYyQzM2IDgxIDQ3IDk1IDgwIDk4QzExMiA5NyAxMjcgODAgMTIyIDYwQzExOCA0MyAxMDEgMzUgODYgMzgiIGZpbGw9InVybCgjY3J5c3RhbCkiLz48cGF0aCBkPSJNNjggNDBDNTMgNTkgNTUgODIgNzAgOTZNOTMgMzlDMTA5IDU5IDEwNyA4MiA5MyA5Nk04MCA0MEw4MCA5NiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjOWJiYWRkIi8+PHBhdGggZD0iTTY3IDUzUTgwIDQzIDk0IDUzTDk0IDc5UTgwIDg2IDY3IDc5WiIgZmlsbD0iI2VmZjlmZiIgc3Ryb2tlPSIjOWNiOWQ4Ii8+PHBhdGggZD0iTTUzIDk2TDExMSA5NkwxMjIgMTA1SDQwWiIgZmlsbD0idXJsKCNzaWx2ZXIpIi8+PGNpcmNsZSBjeD0iNTMiIGN5PSIxMTEiIHI9IjE1IiBmaWxsPSIjZjVmYmZmIi8+PGNpcmNsZSBjeD0iMTA3IiBjeT0iMTExIiByPSIxNSIgZmlsbD0iI2Y1ZmJmZiIvPjxjaXJjbGUgY3g9IjUzIiBjeT0iMTExIiByPSIxMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYjZjZmU2Ii8+PGNpcmNsZSBjeD0iMTA3IiBjeT0iMTExIiByPSIxMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYjZjZmU2Ii8+PHBhdGggZD0iTTUzIDk2VjEyNk0zOCAxMTFINjhNNDMgMTAxTDYzIDEyMU00MyAxMjFMNjMgMTAxTTEwNyA5NlYxMjZNOTIgMTExSDEyMk05NyAxMDFMMTE3IDEyMU05NyAxMjFMMTE3IDEwMU00MCA5OVEyMCA4OSAyMCAxMDJRMjAgMTA5IDMxIDEwNk0xMjAgOThRMTM1IDkwIDE0MyA5NyIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik03NSAzMUw3OSAyNEw4MyAyOUw4OCAyM0w5MSAzMVoiIGZpbGw9InVybCgjc2lsdmVyKSIvPjwvZz48cGF0aCBkPSJNMjkgNDMuNFEyOS43IDQ4LjMgMzMuOSA0OVEyOS43IDQ5LjcgMjkgNTQuNlEyOC4zIDQ5LjcgMjQuMSA0OVEyOC4zIDQ4LjMgMjkgNDMuNFoiIGZpbGw9IiNmOWZkZmYiIHN0cm9rZT0iI2EzYzZlOCIgc3Ryb2tlLXdpZHRoPSIuNSIvPjxwYXRoIGQ9Ik0xMzAgMzEuOFExMzAuOSAzOC4xIDEzNi4zIDM5UTEzMC45IDM5LjkgMTMwIDQ2LjJRMTI5LjEgMzkuOSAxMjMuNyAzOVExMjkuMSAzOC4xIDEzMCAzMS44WiIgZmlsbD0iI2Y5ZmRmZiIgc3Ryb2tlPSIjYTNjNmU4IiBzdHJva2Utd2lkdGg9Ii41Ii8+PHBhdGggZD0iTTEzOCA3Mi40UTEzOC40NSA3NS41NSAxNDEuMTUgNzZRMTM4LjQ1IDc2LjQ1IDEzOCA3OS42UTEzNy41NSA3Ni40NSAxMzQuODUgNzZRMTM3LjU1IDc1LjU1IDEzOCA3Mi40WiIgZmlsbD0iI2Y5ZmRmZiIgc3Ryb2tlPSIjYTNjNmU4IiBzdHJva2Utd2lkdGg9Ii41Ii8+PC9zdmc+" width="160" height="160" alt="" loading="lazy"><h3>Dedícame una canción</h3><p>Elige una canción para llenar de magia nuestro gran baile.</p><button type="button" class="detail-action" data-modal="songDialog">Sugerir canción ↗</button></article>
-          <article class="detail-card"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNjAgMTYwIiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE2MCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJjcnlzdGFsIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuOTgiLz48c3RvcCBvZmZzZXQ9Ii40NSIgc3RvcC1jb2xvcj0iI2Q3ZWVmZiIvPjxzdG9wIG9mZnNldD0iLjciIHN0b3AtY29sb3I9IiM5YWM2ZWUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmNWZiZmYiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iZHJlc3MiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjZWRmOGZmIi8+PHN0b3Agb2Zmc2V0PSIuMzgiIHN0b3AtY29sb3I9IiM5ZGM5ZWQiLz48c3RvcCBvZmZzZXQ9Ii43MiIgc3RvcC1jb2xvcj0iIzcyYTlkOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2Q0ZWNmZiIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJzaWx2ZXIiPjxzdG9wIHN0b3AtY29sb3I9IiNmYWZmZmYiLz48c3RvcCBvZmZzZXQ9Ii41IiBzdG9wLWNvbG9yPSIjYTJiOWQ2Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PGcgc3Ryb2tlPSIjNzI5YWM1IiBzdHJva2Utd2lkdGg9IjEuNiIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTI3IDc2UTQwIDc5IDQ0IDY0TDUyIDQ4UTU3IDM5IDYzIDQ0TDc2IDY5UTg1IDg3IDExNiA5MVExMzUgOTMgMTQxIDEwNFExMzMgMTEzIDExMCAxMTFMNzQgMTA3UTYyIDEwNCA1MCA5Mkw0MiAxMTZIMzRMMzcgODdMMjYgODJaIiBmaWxsPSJ1cmwoI2NyeXN0YWwpIi8+PHBhdGggZD0iTTQyIDgzUTUxIDc2IDU0IDU3TDY3IDc5UTgzIDk4IDEyNyAxMDNNNTAgOTJMNzEgOTdNNDMgOTNMNDAgMTExTTc0IDEwNkwxMDMgMTEwIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIvPjxwYXRoIGQ9Ik01NyA1NEw2MyA3MEw1MSA3NloiIGZpbGw9IiNlZGY5ZmYiIG9wYWNpdHk9Ii44Ii8+PHBhdGggZD0iTTc3IDg5TDg1IDgzTDkxIDkyTDg0IDk5WiIgZmlsbD0iI2ZhZmZmZiIvPjxwYXRoIGQ9Ik0yNyA4MEwzNSA4NCIgZmlsbD0ibm9uZSIvPjwvZz48cGF0aCBkPSJNMTA5IDQ4UTExMCA1NSAxMTYgNTZRMTEwIDU3IDEwOSA2NFExMDggNTcgMTAyIDU2UTEwOCA1NSAxMDkgNDhaIiBmaWxsPSIjZjlmZGZmIiBzdHJva2U9IiNhM2M2ZTgiIHN0cm9rZS13aWR0aD0iLjUiLz48cGF0aCBkPSJNMzUgMzUuMFEzNS43NSA0MC4yNSA0MC4yNSA0MVEzNS43NSA0MS43NSAzNSA0Ny4wUTM0LjI1IDQxLjc1IDI5Ljc1IDQxUTM0LjI1IDQwLjI1IDM1IDM1LjBaIiBmaWxsPSIjZjlmZGZmIiBzdHJva2U9IiNhM2M2ZTgiIHN0cm9rZS13aWR0aD0iLjUiLz48cGF0aCBkPSJNMTQwIDcxLjZRMTQwLjU1IDc1LjQ1IDE0My44NSA3NlExNDAuNTUgNzYuNTUgMTQwIDgwLjRRMTM5LjQ1IDc2LjU1IDEzNi4xNSA3NlExMzkuNDUgNzUuNDUgMTQwIDcxLjZaIiBmaWxsPSIjZjlmZGZmIiBzdHJva2U9IiNhM2M2ZTgiIHN0cm9rZS13aWR0aD0iLjUiLz48L3N2Zz4=" width="160" height="160" alt="" loading="lazy"><h3>Regalos</h3><p>Un detalle con cariño: conoce la entrega de sobres.</p><a class="detail-action" href="#regalos">Ver información ↗</a></article>
         </div>
       </div>
     </section>
 
-    <!-- REGALOS -->
-    <section class="gifts-section section" id="regalos" aria-labelledby="giftsTitle">
+    <!-- RECUERDOS -->
+    <section class="memories-section section" id="recuerdos" aria-labelledby="guestbookTitle">
       <div class="section-wrap narrow reveal">
         <p class="eyebrow">Con mucho cariño</p>
-        <div class="gift-envelope" aria-hidden="true">
+        <div class="memory-envelope" aria-hidden="true">
           <svg viewBox="0 0 96 76" width="96" height="76" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round">
             <path d="M10 28 48 6l38 22v38H10Z" fill="#f1f7fd"/>
             <path d="M23 35V16h50v19" fill="#fff"/>
@@ -1116,11 +1115,11 @@ Leonardo Palma</p>
             <path d="M48 33s-9-5-9-10a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5-9 10-9 10Z" fill="#d9e9f8"/>
           </svg>
         </div>
-        <h2 id="giftsTitle"><em>Regalos</em></h2>
-        <div class="gift-note">
-          <span class="gift-note-ornament" aria-hidden="true">✧</span>
-          <p id="giftText">¡Gracias por tu cariño y generoso regalo! Una persona encargada te entregará un sobre con tu nombre el día de la celebración, para que puedas colocar tu obsequio. ¡Muchas gracias por ser parte de este día tan especial!</p>
-          <span class="gift-note-ornament" aria-hidden="true">✧</span>
+        <h2 id="guestbookTitle">Sobre <em>cerrado</em></h2>
+        <div class="memory-note">
+          <span class="memory-note-ornament" aria-hidden="true">✧</span>
+          <p id="guestbookText">En el área de invitados encontrarás sobres y una pluma para que puedas escribir tus datos y dejar un lindo recuerdo de tu visita. ¡Gracias por ser parte de este día tan especial!</p>
+          <span class="memory-note-ornament" aria-hidden="true">✧</span>
         </div>
       </div>
     </section>
@@ -1206,7 +1205,7 @@ const CONFIG = {
     direccion: "https://www.google.com/maps/place/Club+de+Clases+Y+Polic%C3%ADas+Tamarindo+Real/@-1.0261444,-80.4774094,17z/data=!4m6!3m5!1s0x902bed6abd16cd2d:0x6558e3b8899c7cca!8m2!3d-1.0261399!4d-80.4774093!16s%2Fg%2F11c5bqpwt8?hl=en&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
   },
   vestimenta: 'Formal / Elegante',
-  regalos: '¡Gracias por tu cariño y generoso regalo! Una persona encargada te entregará un sobre con tu nombre el día de la celebración, para que puedas colocar tu obsequio. ¡Muchas gracias por ser parte de este día tan especial!',
+  recuerdos: 'En el área de invitados encontrarás sobres y una pluma para que puedas escribir tus datos y dejar un lindo recuerdo de tu visita. ¡Gracias por ser parte de este día tan especial!',
   iniciarMusicaAlAbrir: true
 };
 
@@ -1255,7 +1254,7 @@ function configurarPagina() {
   establecerTexto('partyVenue', CONFIG.recepcion.lugar);
   establecerTexto('partyTime', CONFIG.recepcion.hora);
   establecerTexto('dressCodeText', CONFIG.vestimenta);
-  establecerTexto('giftText', CONFIG.regalos);
+  establecerTexto('guestbookText', CONFIG.recuerdos);
 
   configurarMapa('ceremonyMap', CONFIG.ceremonia.direccion);
   configurarMapa('partyMap', CONFIG.recepcion.direccion);
