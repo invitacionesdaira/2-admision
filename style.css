@@ -822,6 +822,6 @@ body.effects-light .intro-token { animation-duration:9s; }
 .memory-envelope svg { display:block; width:100%; height:100%; }
 .memories-section h2 { margin-bottom:30px; }
 .memory-note { display:grid; gap:15px; padding:clamp(25px,5vw,44px) clamp(20px,5vw,48px); border:1px solid #b1c8e2; background:#ffffffb3; box-shadow:0 12px 40px #547ba30b; }
-.memory-note p { margin:0; color:var(--ink); font:400 clamp(.94rem,1.6vw,1.05rem)/2 var(--font-sans); text-wrap:pretty; }
+.memory-note p { margin:0; color:var(--ink); font:400 clamp(.94rem,1.6vw,1.05rem)/2 var(--font-sans); text-wrap:pretty; white-space:pre-line; }
 .memory-note-ornament { color:#7298c5; font:1.55rem/1 var(--font-serif); }
 a.detail-action { display:inline-block; text-decoration:none; }

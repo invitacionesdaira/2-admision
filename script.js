@@ -23,7 +23,7 @@ const CONFIG = {
     direccion: "https://www.google.com/maps/place/Club+de+Clases+Y+Polic%C3%ADas+Tamarindo+Real/@-1.0261444,-80.4774094,17z/data=!4m6!3m5!1s0x902bed6abd16cd2d:0x6558e3b8899c7cca!8m2!3d-1.0261399!4d-80.4774093!16s%2Fg%2F11c5bqpwt8?hl=en&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
   },
   vestimenta: 'Formal / Elegante',
-  recuerdos: 'En el área de invitados encontrarás sobres y una pluma para que puedas escribir tus datos y dejar un lindo recuerdo de tu visita. ¡Gracias por ser parte de este día tan especial!',
+  recuerdos: "✨ Un recuerdo de esta noche especial ✨\n\nEn nuestro cordel de invitados encontrarás sobres y una pluma para que puedas escribir tus datos y dejarnos un lindo recuerdo de tu visita.\n\nGracias por acompañarnos y ser parte de esta noche mágica e inolvidable.\n\nCon cariño, Daira. 👑💗",
   iniciarMusicaAlAbrir: true
 };
 
